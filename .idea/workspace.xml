@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85943fdc-889b-40db-8429-3eb6d3d71409" name="Default" comment="" />
+    <list default="true" id="85943fdc-889b-40db-8429-3eb6d3d71409" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/AdvancedControls.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/AdvancedControls.scala" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,20 +26,17 @@
       <file leaf-file-name="StringOperations.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/strings/StringOperations.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3700">
+            <state relative-caret-position="3850">
               <caret line="154" selection-start-line="154" selection-end-line="154" />
-              <folding>
-                <element signature="e#465#669#0" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumberOperations.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NumberOperations.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/numbers/NumberOperations.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+            <state relative-caret-position="500">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#55#79#0" expanded="true" />
                 <element signature="e#372#614#0" />
@@ -44,7 +46,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="BasicControls.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/BasicControls.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1925">
+              <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+              <folding>
+                <element signature="e#55#106#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdvancedControls.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/AdvancedControls.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -52,7 +78,22 @@
         <option value="$PROJECT_DIR$/src/scala/hk/edu/cuhk/bigdata/scalacookbook/strings/StringOperations.scala" />
         <option value="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/strings/StringOperations.scala" />
         <option value="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/numbers/NumberOperations.scala" />
+        <option value="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/ControlOperations.scala" />
+        <option value="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/BasicControls.scala" />
+        <option value="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/AdvancedControls.scala" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\workspace\ScalaCookBook\Maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -61,13 +102,14 @@
     <option name="width" value="1750" />
     <option name="height" value="1250" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -100,16 +142,26 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="scalacookbook" type="462c0819:PsiDirectoryNode" />
+              <item name="control" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaCookBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CookBook" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="scalacookbook" type="462c0819:PsiDirectoryNode" />
               <item name="numbers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -123,7 +175,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumberOperations">
+  <component name="RunManager" selected="Application.AdvancedControls">
+    <configuration name="AdvancedControls" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="hk.edu.cuhk.cse.bigdata.scalacookbook.control.AdvancedControls" />
+      <module name="ScalaCookBook" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hk.edu.cuhk.cse.bigdata.scalacookbook.control.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ControlOperations" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="hk.edu.cuhk.cse.bigdata.scalacookbook.control.BasicControls" />
+      <module name="ScalaCookBook" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hk.edu.cuhk.cse.bigdata.scalacookbook.control.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="NumberOperations" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="hk.edu.cuhk.cse.bigdata.scalacookbook.numbers.NumberOperations" />
       <module name="ScalaCookBook" />
@@ -190,9 +264,13 @@
     <list>
       <item itemvalue="Application.StringOperations" />
       <item itemvalue="Application.NumberOperations" />
+      <item itemvalue="Application.ControlOperations" />
+      <item itemvalue="Application.AdvancedControls" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdvancedControls" />
+        <item itemvalue="Application.ControlOperations" />
         <item itemvalue="Application.NumberOperations" />
         <item itemvalue="Application.StringOperations" />
       </list>
@@ -222,8 +300,8 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32973504" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32907662" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -254,9 +332,121 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3850">
           <caret line="154" selection-start-line="154" selection-end-line="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/numbers/NumberOperations.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
-            <element signature="e#465#669#0" />
+            <element signature="e#55#79#0" expanded="true" />
+            <element signature="e#372#614#0" />
+            <element signature="e#618#949#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/BasicControls.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1925">
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="e#55#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/AdvancedControls.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/strings/StringOperations.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3850">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/numbers/NumberOperations.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#55#79#0" expanded="true" />
+            <element signature="e#372#614#0" />
+            <element signature="e#618#949#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/BasicControls.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#55#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/strings/StringOperations.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3850">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/numbers/NumberOperations.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#55#79#0" expanded="true" />
+            <element signature="e#372#614#0" />
+            <element signature="e#618#949#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/strings/StringOperations.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3700">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/numbers/NumberOperations.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="e#55#79#0" expanded="true" />
+            <element signature="e#372#614#0" />
+            <element signature="e#618#949#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/strings/StringOperations.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3850">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
         </state>
       </provider>
     </entry>
@@ -278,23 +468,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/strings/StringOperations.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3700">
+        <state relative-caret-position="3850">
           <caret line="154" selection-start-line="154" selection-end-line="154" />
-          <folding>
-            <element signature="e#465#669#0" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/numbers/NumberOperations.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="500">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#55#79#0" expanded="true" />
             <element signature="e#372#614#0" />
             <element signature="e#618#949#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/BasicControls.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1925">
+          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+          <folding>
+            <element signature="e#55#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/AdvancedControls.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
         </state>
       </provider>
     </entry>
