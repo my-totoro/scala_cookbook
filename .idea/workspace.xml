@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85943fdc-889b-40db-8429-3eb6d3d71409" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/AbstractClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/AuxiliaryConstructorExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/FieldExamples.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/InheritExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/PrimaryConstructorExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/PrivatePrimaryConstructor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/MoreAdvancedControls.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/AdvancedControls.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/AdvancedControls.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,20 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="StringOperations.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/strings/StringOperations.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3850">
-              <caret line="154" selection-start-line="154" selection-end-line="154" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NumberOperations.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/numbers/NumberOperations.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,11 +48,78 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdvancedControls.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdvancedControls.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/AdvancedControls.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+            <state relative-caret-position="740">
+              <caret line="44" column="3" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoreAdvancedControls.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/MoreAdvancedControls.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="70" column="15" lean-forward="true" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+              <folding>
+                <element signature="e#288#1264#0" />
+                <element signature="e#1626#1644#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrimaryConstructorExample.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/PrimaryConstructorExample.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuxiliaryConstructorExample.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/AuxiliaryConstructorExample.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrivatePrimaryConstructor.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/PrivatePrimaryConstructor.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FieldExamples.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/FieldExamples.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InheritExample.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/InheritExample.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="18" column="84" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractClass.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/AbstractClass.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -81,6 +138,13 @@
         <option value="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/ControlOperations.scala" />
         <option value="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/BasicControls.scala" />
         <option value="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/AdvancedControls.scala" />
+        <option value="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/MoreAdvancedControls.scala" />
+        <option value="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/AuxiliaryConstructorExample.scala" />
+        <option value="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/PrimaryConstructorExample.scala" />
+        <option value="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/PrivatePrimaryConstructor.scala" />
+        <option value="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/FieldExamples.scala" />
+        <option value="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/InheritExample.scala" />
+        <option value="$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/AbstractClass.scala" />
       </list>
     </option>
   </component>
@@ -142,15 +206,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="scalacookbook" type="462c0819:PsiDirectoryNode" />
-              <item name="control" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaCookBook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CookBook" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="scalacookbook" type="462c0819:PsiDirectoryNode" />
-              <item name="numbers" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -175,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AdvancedControls">
+  <component name="RunManager" selected="Application.SingletonTest">
     <configuration name="AdvancedControls" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="hk.edu.cuhk.cse.bigdata.scalacookbook.control.AdvancedControls" />
       <module name="ScalaCookBook" />
@@ -198,24 +254,35 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="NumberOperations" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="hk.edu.cuhk.cse.bigdata.scalacookbook.numbers.NumberOperations" />
+    <configuration name="MoreAdvancedControls" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="hk.edu.cuhk.cse.bigdata.scalacookbook.control.MoreAdvancedControls" />
       <module name="ScalaCookBook" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hk.edu.cuhk.cse.bigdata.scalacookbook.numbers.*" />
+          <option name="PATTERN" value="hk.edu.cuhk.cse.bigdata.scalacookbook.control.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="StringOperations" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="hk.edu.cuhk.cse.bigdata.scalacookbook.strings.StringOperations" />
+    <configuration name="SingletonTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="hk.edu.cuhk.cse.bigdata.scalacookbook.classes.SingletonTest" />
       <module name="ScalaCookBook" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hk.edu.cuhk.cse.bigdata.scalacookbook.strings.*" />
+          <option name="PATTERN" value="hk.edu.cuhk.cse.bigdata.scalacookbook.classes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestPrimaryConstructorExample" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="hk.edu.cuhk.cse.bigdata.scalacookbook.classes.TestPrimaryConstructorExample" />
+      <module name="ScalaCookBook" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hk.edu.cuhk.cse.bigdata.scalacookbook.classes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,17 +329,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.StringOperations" />
-      <item itemvalue="Application.NumberOperations" />
       <item itemvalue="Application.ControlOperations" />
       <item itemvalue="Application.AdvancedControls" />
+      <item itemvalue="Application.MoreAdvancedControls" />
+      <item itemvalue="Application.TestPrimaryConstructorExample" />
+      <item itemvalue="Application.SingletonTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonTest" />
+        <item itemvalue="Application.TestPrimaryConstructorExample" />
+        <item itemvalue="Application.MoreAdvancedControls" />
         <item itemvalue="Application.AdvancedControls" />
         <item itemvalue="Application.ControlOperations" />
-        <item itemvalue="Application.NumberOperations" />
-        <item itemvalue="Application.StringOperations" />
       </list>
     </recent_temporary>
   </component>
@@ -295,13 +364,14 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32907662" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32907662" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32907662" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -318,7 +388,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -497,8 +566,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/AdvancedControls.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+        <state relative-caret-position="740">
+          <caret line="44" column="3" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/control/MoreAdvancedControls.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="70" column="15" lean-forward="true" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+          <folding>
+            <element signature="e#288#1264#0" />
+            <element signature="e#1626#1644#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/PrimaryConstructorExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/AuxiliaryConstructorExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/PrivatePrimaryConstructor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/FieldExamples.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/InheritExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="18" column="84" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scala/hk/edu/cuhk/cse/bigdata/scalacookbook/classes/AbstractClass.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
         </state>
       </provider>
     </entry>
